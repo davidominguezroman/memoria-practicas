@@ -8,8 +8,7 @@
       "installRMarkdown": "true"
     },
     "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {
-      "version": "daily",
-      "allowReinstall": true
+      "version": "stable"
     },
     "ghcr.io/prulloac/devcontainer-features/latex:1": {
       "scheme": "basic"
