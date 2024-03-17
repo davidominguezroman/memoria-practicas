@@ -3,10 +3,11 @@
   "features": {
     "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
       "version": "prerelease",
-      "installTinyTex": true
+      "installTinyTex": true,
+      "installChromium": true
     },
     "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
-      "vscodeRSupport": "full",
+      "vscodeRSupport": "minimal",
       "installRMarkdown": "true"
     },
     "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {
@@ -14,7 +15,7 @@
       "allowReinstall": true
     },
     "ghcr.io/prulloac/devcontainer-features/latex:1": {
-      "scheme": "full"
+      "scheme": "basic"
     }
   }
 }
