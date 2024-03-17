@@ -12,6 +12,9 @@
     },
     "ghcr.io/prulloac/devcontainer-features/latex:1": {
       "scheme": "basic"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
+      "packages": "ttf-mscorefonts-installer"
     }
   }
 }
