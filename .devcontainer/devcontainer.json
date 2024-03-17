@@ -1,0 +1,20 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/rocker-org/devcontainer-features/quarto-cli:1": {
+      "version": "prerelease",
+      "installTinyTex": true
+    },
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {
+      "vscodeRSupport": "full",
+      "installRMarkdown": "true"
+    },
+    "ghcr.io/rocker-org/devcontainer-features/rstudio-server:0": {
+      "version": "daily",
+      "allowReinstall": true
+    },
+    "ghcr.io/prulloac/devcontainer-features/latex:1": {
+      "scheme": "full"
+    }
+  }
+}
